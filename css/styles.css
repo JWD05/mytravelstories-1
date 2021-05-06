@@ -4,7 +4,12 @@ table {
 th {
   background-color: #ccc;
 }
-th, tr, td {
+th,
+tr,
+td {
   padding: 20px;
   border: 1px solid black;
+}
+legend {
+  font-weight: bold;
 }

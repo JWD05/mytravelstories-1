@@ -1,3 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Roboto", 'Courier New', Courier, monospace;
+}
+
+header {
+  text-align: center;
+}
+header > img {
+  width: 100%;
+  height: 500px;
+}
+nav {
+  background-color: rgb(206, 85, 85);
+  
+}
+nav a {
+  color: rgba(206, 201, 231, 0.8);
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 0 16px;
+}
+nav a:hover {
+  background-color: aqua;
+  color: rgb(200, 137, 36);
+}
+h1 {
+  font-size: 3em;
+  color: hsl(0, 2%, 32%);
+  padding: 10px;
+}
+blockquote {
+  font-size: 1.5em;
+  color: hsla(315, 28%, 23%, 0.5);
+  padding: 10px;
+
+}
+
+/*Stories Page*/
+/* Using display for layout*/
+.stories {
+  width: 940px;
+  text-align:center;
+  margin: 0 auto;
+}
+.stories .col {
+  display: inline-block;
+  margin: 20px auto;
+}
+.stories > article {
+  max-width: 300px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.col > img {
+  width: 100%;
+  opacity: 0.7;
+}
+.col p, .col h3 {
+  color: #803376;
+  padding: 2px;
+  margin: 5px;
+}
+
+/*Footer*/
+footer {
+  text-align: center;
+  margin: 15px 0;
+}
+
 table {
   border-collapse: collapse;
 }
@@ -12,4 +89,7 @@ td {
 }
 legend {
   font-weight: bold;
+}
+img {
+  height: 100%;
 }

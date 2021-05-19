@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 
 *{
   margin: 0;
@@ -7,7 +7,8 @@
   box-sizing: border-box;
 }
 body{
-  font-family: "Roboto", 'Courier New', Courier, monospace;
+  font-family: 'Roboto', serif;
+  font-size: 1.125em;
 }
 
 header {
@@ -19,6 +20,7 @@ header > img {
 }
 nav {
   background-color: rgb(206, 85, 85);
+  margin: auto;
   
 }
 nav a {
@@ -42,6 +44,18 @@ blockquote {
   padding: 10px;
 
 }
+main {
+  width: 60%;
+  margin: auto;  
+  text-align: justify;
+}
+main p {
+  margin-bottom:2em;
+}
+ul {
+  margin-left: 2em;
+  margin-bottom: 2em;
+}
 
 /*Stories Page*/
 /* Using display for layout*/
@@ -52,13 +66,14 @@ blockquote {
 }
 .stories .col {
   display: inline-block;
-  margin: 20px auto;
+  margin: 1em 0.2em;
 }
 .stories > article {
   max-width: 300px;
   overflow: hidden;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
 }
+
 .col > img {
   width: 100%;
   opacity: 0.7;
@@ -66,30 +81,50 @@ blockquote {
 .col p, .col h3 {
   color: #803376;
   padding: 2px;
-  margin: 5px;
+  margin: 10px;
 }
 
 /*Footer*/
 footer {
   text-align: center;
   margin: 15px 0;
+  font-size: 0.75em;
 }
 
-table {
-  border-collapse: collapse;
-}
-th {
-  background-color: #f2f2f2;
-}
-th,
-tr,
-td {
-  padding: 20px;
-  border: 1px solid black;
-}
+
 legend {
   font-weight: bold;
 }
 img {
   height: 100%;
+}
+fieldset {
+  border:0;
+}
+#fname{
+  width: 100%;
+  height: 2em;
+}
+#lname{
+  width: 100%;
+  height: 2em;
+}
+
+select {
+  width: 100%;
+  height:2em; 
+}
+form {
+  text-align:left;
+  width: 100%;
+}
+#comment {
+  width: 100%;
+}
+.submit_button {
+  padding: 0.5em;
+  background-color: rgb(114, 178, 17);
+  color: white;
+  border-radius: 10%;
+  margin-left: 45%;
 }
